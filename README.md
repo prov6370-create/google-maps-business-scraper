@@ -1,0 +1,48 @@
+# 📍 Google Maps Business Scraper (LeadGen Edition)
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)
+
+**Професійний інструмент для автоматизованого збору B2B-лідів з Google Maps.** Скрипт перетворює результати пошуку на структуровану базу даних, готову до холодних обдзвонів, розсилок або аналізу ринку.
+
+---
+
+### 🚀 Ключові можливості
+
+* 🌍 **Масштабне охоплення**: Автоматичний обхід сотень міст та бізнес-категорій за один запуск.
+* 🕵️ **Глибокий витяг даних**: Збір назв, телефонів, адрес, сайтів та пошук **Email** на сторінках компаній.
+* 🤖 **Імітація людини**: Плавний скрол та динамічні затримки для обходу анти-бот систем.
+* 💾 **Збереження прогресу**: Функція дозавантаження — якщо робота перерветься, скрипт продовжить з того ж місця.
+* 🧹 **Чисті дані**: Автоматичне видалення дублікатів та експорт у структурований Excel.
+
+---
+
+### 📊 Дані, що збираються
+
+| Поле | Опис |
+| :--- | :--- |
+| **Назва** | Офіційне найменування бізнесу |
+| **Телефон** | Прямий контактний номер |
+| **Email** | Пошта для маркетингу (якщо знайдено) |
+| **Сайт** | Посилання на веб-ресурс компанії |
+| **Адреса** | Фізичне розташування |
+| **Maps Link** | Пряме посилання на картку в Google Maps |
+
+---
+
+### 🛠 Технологічний стек
+
+* **Core:** `Python 3.10+`
+* **Engine:** `Playwright` (Chromium)
+* **Data Handling:** `Pandas` & `Openpyxl`
+* **Async:** `asyncio` для високої швидкості обробки
+
+---
+
+### 📦 Швидкий старт
+
+1. **Клонуй репозиторій:**
+   ```bash
+   git clone [https://github.com/your-username/google-maps-scraper.git](https://github.com/your-username/google-maps-scraper.git)
